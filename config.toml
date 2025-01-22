@@ -1,4 +1,4 @@
-baseurl      = "gownkydo.github.io"
+baseurl      = "localhost"
 title        = "My Blog"
 languageCode = "en-es"
 theme        = "hello-friend-ng"
