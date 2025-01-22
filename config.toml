@@ -65,7 +65,6 @@ paginate     = 5
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
-
     identifier = "about"
     name       = "About"
     url        = "/about"
@@ -73,10 +72,8 @@ paginate     = 5
   [[params.social]]
     name = "github"
     url = "https://github.com/gownkydo"
-
-    name = "LinkdIn"
-    url = "https://linkedin.com/in/4strodev"
-
+    
+  [[params.social]]
     name = "telegram"
     url = "https://t.me/gownkydo"
     
