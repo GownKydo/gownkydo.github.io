@@ -1,6 +1,6 @@
-baseurl      = "localhost"
+baseurl      = "gownkydo.github.io"
 title        = "My Blog"
-languageCode = "en-us"
+languageCode = "en-es"
 theme        = "hello-friend-ng"
 paginate     = 10
 
@@ -34,16 +34,16 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
+    title = "Hello Friend"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
   [languages.en.params]
-    subtitle  = "A simple theme for Hugo"
+    subtitle  = "Gownkydo"
 
     [languages.en.params.logo]
-      logoText = "hello friend ng"
+      logoText = "hello friend"
       logoHomeLink = "/"
     # or
     #
@@ -57,5 +57,8 @@ paginate     = 10
     url        = "/posts"
 
   [[params.social]]
-    name = "<site>"
-    url = "<profile_URL>"
+    name = "github"
+    url = "https://github.com/gownkydo"
+
+    name = "telegram"
+    url = "https://t.me/gownkydo"
