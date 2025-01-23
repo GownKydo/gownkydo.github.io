@@ -30,11 +30,13 @@ paginate     = 5
       logoText = "./readContent"
       logoHomeLink = "/"
 
-[params.author]
-  image = "images/profile.jpg"
-  name = "Gownkydo"
-  greeting = "Guides, writeups, tips about programing and cybersecurity."
-  icon = ":bullseye:"
+homeSubtitle = "Guides, writeups, tips about programing and cybersecurity."
+
+#[params.author]
+#  image = "images/profile.jpg"
+#  name = "Gownkydo"
+#  greeting = "Guides, writeups, tips about programing and cybersecurity."
+#  icon = ":bullseye:"
 
 [[menu.main]]
   identifier = "blog"
