@@ -5,13 +5,7 @@ theme        = "hello-friend-ng"
 paginate     = 5
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
-  disableReadOtherPosts = false
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
-  images = [""]
+  description = "Guides, writeups, tips about programing and cybersecurity."
 
 [taxonomies]
     category = "blog"
@@ -21,6 +15,7 @@ paginate     = 5
 [languages]
   [languages.en]
     title = "Hello Friend"
+    subtitle = "Gownkydo"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     menuMore = "Show more"
     writtenBy = "Written by"
@@ -30,7 +25,6 @@ paginate     = 5
     olderPosts = "Older posts"
     minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
 
 [params.author]
   image = "images/profile.jpg"
@@ -58,7 +52,7 @@ paginate     = 5
   url = "https://github.com/gownkydo"
 
 [[params.social]]
-  name = "LinkedIn"
+  name = "linkedin"
   url = "https://linkedin.com/in/gerardohgomez"
 
 [[params.social]]
