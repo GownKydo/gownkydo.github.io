@@ -1,12 +1,11 @@
 baseurl      = "https://gownkydo.github.io"
 title        = "Hello friend - Gownkydo"
-languageCode = "en-en"
+languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 5
 
 [params]
   dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
   disableReadOtherPosts = false
@@ -22,7 +21,6 @@ paginate     = 5
 [languages]
   [languages.en]
     title = "Hello Friend"
-    keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     menuMore = "Show more"
     writtenBy = "Written by"
@@ -34,26 +32,34 @@ paginate     = 5
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"
 
-  [languages.en.params]
-    subtitle  = "Gownkydo"
+[params.author]
+  image = "images/profile.jpg"
+  name = "Gownkydo"
+  greeting = "Guides, writeups, tips about programing and cybersecurity."
+  icon = ":bullseye:"
 
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+[[menu.main]]
+  identifier = "blog"
+  name       = "Blog"
+  url        = "/posts"
 
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about"
+[[menu.main]]
+  identifier = "tag"
+  name       = "Tag"
+  url        = "/tags"
+
+[[menu.main]]
+  identifier = "about"
+  name       = "About"
+  url        = "/about"
 
 [[params.social]]
   name = "github"
   url = "https://github.com/gownkydo"
 
 [[params.social]]
-  name = "LinkdIn"
-  url = "https://linkedin.com/in/4strodev"
+  name = "LinkedIn"
+  url = "https://linkedin.com/in/gerardohgomez"
 
 [[params.social]]
   name = "telegram"
