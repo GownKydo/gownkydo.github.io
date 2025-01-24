@@ -1,4 +1,4 @@
-baseurl      = "https://gownkydo.github.io"
+baseurl      = "https://gownkydo.github.io/"
 title        = "Hello friend - Gownkydo"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
@@ -24,10 +24,13 @@ paginate     = 5
     dateFormatSingle = "2006-01-02"
 
     [languages.en.params.logo]
+      logoMark     = ">"
       logoText = "./readPost"
       logoHomeLink = "/"
-
-homeSubtitle = "Guides, writeups, tips about programming and cybersecurity."
+[params]
+  homeSubtitle = "Guides, writeups, tips about programming and cybersecurity."
+  enableRobotsTXT = true
+  enableThemeToggle = true
 
 #[params.author]
 #  image = "images/profile.jpg"
@@ -35,20 +38,21 @@ homeSubtitle = "Guides, writeups, tips about programming and cybersecurity."
 #  greeting = "Guides, writeups, tips about programing and cybersecurity."
 #  icon = ":bullseye:"
 
-[[menu.main]]
-  identifier = "posts"
-  name       = "Posts"
-  url        = "/posts"
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
 
-[[menu.main]]
-  identifier = "archives"
-  name       = "Archives"
-  url        = "/archives"
+  [[menu.main]]
+    identifier = "archives"
+    name       = "Archives"
+    url        = "/archives"
 
-[[menu.main]]
-  identifier = "about"
-  name       = "About"
-  url        = "/about"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
 
 [[params.social]]
   name = "github"
