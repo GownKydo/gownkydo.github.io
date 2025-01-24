@@ -27,7 +27,7 @@ paginate     = 5
       logoText = "./readPost"
       logoHomeLink = "/"
 
-homeSubtitle = "Guides, writeups, tips about programing and cybersecurity."
+homeSubtitle = "Guides, writeups, tips about programming and cybersecurity."
 
 #[params.author]
 #  image = "images/profile.jpg"
@@ -41,9 +41,9 @@ homeSubtitle = "Guides, writeups, tips about programing and cybersecurity."
   url        = "/posts"
 
 [[menu.main]]
-  identifier = "tag"
-  name       = "Tag"
-  url        = "/tags"
+  identifier = "archives"
+  name       = "Archives"
+  url        = "/archives"
 
 [[menu.main]]
   identifier = "about"
@@ -63,7 +63,7 @@ homeSubtitle = "Guides, writeups, tips about programing and cybersecurity."
   url = "https://t.me/gownkydo"
 
 [params.footer]
-    trademark = 2024-2025
+    trademark = "2024-2025"
     rss = false
     copyright = true
     author = true
