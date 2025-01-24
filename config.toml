@@ -31,6 +31,7 @@ paginate     = 5
   homeSubtitle = "Guides, writeups, tips about programming and cybersecurity."
   enableRobotsTXT = true
   enableThemeToggle = true
+  sectionBlog = "blog"
 
 #[params.author]
 #  image = "images/profile.jpg"
@@ -53,9 +54,6 @@ paginate     = 5
     identifier = "about"
     name       = "About"
     url        = "/about"
-
-[params]
-  sectionBlog = "blog"
 
 [[params.social]]
   name = "github"
