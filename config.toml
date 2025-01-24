@@ -4,9 +4,6 @@ languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 5
 
-[params]
-  description = "Guides, writeups, tips about programing and cybersecurity."
-
 [taxonomies]
     category = "blog"
     tag      = "tags"
@@ -27,7 +24,7 @@ paginate     = 5
     dateFormatSingle = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "./readPost"
+      logoText = "./readPost.sh"
       logoHomeLink = "/"
 
 homeSubtitle = "Guides, writeups, tips about programing and cybersecurity."
@@ -41,7 +38,7 @@ homeSubtitle = "Guides, writeups, tips about programing and cybersecurity."
 [[menu.main]]
   identifier = "posts"
   name       = "Posts"
-  url        = "/posts/"
+  url        = "/posts"
 
 [[menu.main]]
   identifier = "tag"
@@ -66,12 +63,12 @@ homeSubtitle = "Guides, writeups, tips about programing and cybersecurity."
   url = "https://t.me/gownkydo"
 
 [params.footer]
-    trademark = 2023
+    trademark = 2024-2025
     rss = false
     copyright = true
     author = true
     topText = []
     bottomText = [
       "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Made with &#10084; by <a href=\"https://github.com/gownkydo\">Gownkydo</a>"
+      "<a href=\"https://github.com/gownkydo\">Gownkydo</a>"
     ]
