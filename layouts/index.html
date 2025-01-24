@@ -9,13 +9,9 @@
 
             {{ partial "subtitle.html" . }}
 
-            <!-- Aquí se pueden agregar las etiquetas o un enlace a la página de tags -->
-            <div class="tags">
-                <h3>Tags</h3>
-                {{ range .Site.Taxonomies.tag }}
-                    <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-                {{ end }}
-            </div>
+            {{ if .Site.Params.homeSubtitle }}
+                <p class="home-subtitle">{{ .Site.Params.homeSubtitle }}</p>
+            {{ end }}
 
             {{- with .Site.Params.social }}
                 <div>
