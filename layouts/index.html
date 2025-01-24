@@ -7,8 +7,6 @@
 
             <h1>{{ .Site.Title }}</h1>
 
-            {{ partial "subtitle.html" . }}
-
             {{ if .Site.Params.homeSubtitle }}
                 <p class="home-subtitle">{{ .Site.Params.homeSubtitle }}</p>
             {{ end }}
