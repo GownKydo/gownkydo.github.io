@@ -19,7 +19,7 @@ tags = [
     "Algoritmos",
     "Trucos de Programación",
 ]
-image = "wallpaper.png"
+
 +++
 
 

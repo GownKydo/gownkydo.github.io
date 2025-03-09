@@ -20,7 +20,6 @@ tags = [
     "Seguridad Informática",
     "DevOps",
 ]
-image = "CronJob.jpg"
 +++
 
 <br>
