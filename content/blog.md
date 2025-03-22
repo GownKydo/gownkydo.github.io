@@ -6,4 +6,8 @@ aliases = ["blog", "inputs", "news", "post"]
   name = "Gownkydo"
 +++
 
+[Learn Linux - First Part](/content/blog/LinuxCommands.md)
+
+[Cron Works](/content/blog/CronJob.md)
+
 [Shortening code in C++](/content/blog/ShorteningCodeInC.md)
