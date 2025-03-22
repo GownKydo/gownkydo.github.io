@@ -1,9 +1,9 @@
 +++
-title = "About"
+title = "Blog"
 date = "2014-04-09"
-aliases = ["about-us","about-hugo","contact"]
+aliases = ["blog", "inputs", "news", "post"]
 [ author ]
   name = "Gownkydo"
 +++
 
-![Shortening code in C++](/content/blog/ShorteningCodeInC.md)
+[Shortening code in C++](/content/blog/ShorteningCodeInC.md)
