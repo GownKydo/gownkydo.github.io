@@ -1,26 +1,24 @@
-+++
-title = 'Shortening Code in C++'
-description = "Tips para comenzar a acortar codigo como todo un chad para programacion competitiva"
-date = 2024-11-03
-[ author ]
-  name = "Gownkydo"
-categories = [
-    "Programming",
-    "C++",
-    "Competitive Programming",
-    "Tips y Trucos",
-]
-tags = [
-    "Competitive Programming",
-    "C++",
-    "Shortening Code",
-    "Optimización",
-    "Eficiencia",
-    "Algoritmos",
-    "Trucos de Programación",
-]
+---
+title: "Shortening Code in C++"
+description: "Tips para comenzar a acortar código como todo un chad para programación competitiva"
+date: 2024-11-03
+author:
+  name: "Gownkydo"
+categories:
+  - "Programming"
+  - "C++"
+  - "Competitive Programming"
+  - "Tips y Trucos"
+tags:
+  - "Competitive Programming"
+  - "C++"
+  - "Shortening Code"
+  - "Optimización"
+  - "Eficiencia"
+  - "Algoritmos"
+  - "Trucos de Programación"
+---
 
-+++
 
 
 El código corto es ideal en la programación competitiva, ya que los programas deben escribirlos lo más rápido posible. Debido a esto, la programación competitiva a menudo define nombres más cortos para tipos de datos y otras partes del código. A continuacion se muestra como usar estos tipos de datos,
