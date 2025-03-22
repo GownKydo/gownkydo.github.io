@@ -1,0 +1,9 @@
++++
+title = "About"
+date = "2014-04-09"
+aliases = ["about-us","about-hugo","contact"]
+[ author ]
+  name = "Gownkydo"
++++
+
+![Shortening code in C++](/content/blog/ShorteningCodeInC.md)
