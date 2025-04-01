@@ -1,25 +1,23 @@
 ---
-title = "Administracion de tareas cron"
+title: "Administracion de tareas cron"
 slug: "Administracion-de-tareas-cron"
-date = 2024-06-06
+date: 2024-06-06
 
-categories = [
-    "Linux",
-    "Bash",
-    "Automatización",
-    "CyberSecurity",
-    "Sistemas Operativos",
-]
-tags = [
-    "Cron",
-    "Automatización",
-    "Linux",
-    "Scripting",
-    "Tareas Programadas",
-    "Administración de Sistemas",
-    "Seguridad Informática",
-    "DevOps",
-]
+categories:
+  - "Linux",
+  - "Bash",
+  - "Automatización",
+  - "CyberSecurity",
+  - "Sistemas Operativos",
+tags:
+  - "Cron",
+  - "Automatización",
+  - "Linux",
+  - "Scripting",
+  - "Tareas Programadas",
+  - "Administración de Sistemas",
+  - "Seguridad Informática",
+  - "DevOps",
 draft: false
 ---
 
