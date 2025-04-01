@@ -1,4 +1,4 @@
-baseurl      = "https://gownkydo.github.io/"
+baseurl      = "https://gownkydo.tech/"
 title        = "Hello friend - Gownkydo"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
@@ -10,7 +10,7 @@ paginate     = 5
     series   = "series"
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/posts/:year/:month/:slug/"
 
 [languages]
   [languages.en]
@@ -35,7 +35,6 @@ paginate     = 5
   homeSubtitle = "Guides, writeups, tips about programming and cybersecurity."
   enableRobotsTXT = true
   enableThemeToggle = true
-  sectionBlog = "posts"
   mainSections = ["posts"]
 
 #[params.author]
@@ -48,17 +47,17 @@ paginate     = 5
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
-    url        = "/posts"
+    url        = "/posts/"
 
   [[menu.main]]
     identifier = "archives"
     name       = "Archives"
-    url        = "/archives"
+    url        = "/archives/"
 
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "/about"
+    url        = "/about/"
 
 [[params.social]]
   name = "github"
