@@ -1,6 +1,7 @@
 baseurl      = "https://gownkydo.tech/"
 title        = "Hello friend - Gownkydo"
 languageCode = "en-us"
+defaultContentLanguage = "en"
 theme        = "hello-friend-ng"
 paginate     = 5
 
@@ -17,15 +18,7 @@ paginate     = 5
     title = "Hello Friend"
     subtitle = "Gownkydo"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-
+    
     [languages.en.params.logo]
       logoMark     = ">"
       logoText = "./readPost"
@@ -34,14 +27,9 @@ paginate     = 5
 [params]
   homeSubtitle = "Guides, writeups, tips about programming and cybersecurity."
   enableRobotsTXT = true
-  enableThemeToggle = true
+  enableThemeToggle = false
+  defaultTheme = "dark"
   mainSections = ["posts"]
-
-#[params.author]
-#  image = "images/profile.jpg"
-#  name = "Gownkydo"
-#  greeting = "Guides, writeups, tips about programing and cybersecurity."
-#  icon = ":bullseye:"
 
 [menu]
   [[menu.main]]
