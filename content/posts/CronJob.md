@@ -1,8 +1,8 @@
-+++
-title = 'Administracion de tareas cron'
+---
+title = "Administracion de tareas cron"
+slug: "Administracion-de-tareas-cron"
 date = 2024-06-06
-[ author ]
-  name = "Gownkydo"
+
 categories = [
     "Linux",
     "Bash",
@@ -20,7 +20,8 @@ tags = [
     "Seguridad Informática",
     "DevOps",
 ]
-+++
+draft: false
+---
 
 <br>
 

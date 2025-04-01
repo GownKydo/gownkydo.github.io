@@ -1,9 +1,9 @@
 ---
 title: "Shortening Code in C++"
+slug: "Shortening-code-in-C++"
 description: "Tips para comenzar a acortar código como todo un chad para programación competitiva"
 date: 2024-11-03
-author:
-  name: "Gownkydo"
+
 categories:
   - "Programming"
   - "C++"
@@ -17,6 +17,7 @@ tags:
   - "Eficiencia"
   - "Algoritmos"
   - "Trucos de Programación"
+draft: false
 ---
 
 
