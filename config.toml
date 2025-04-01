@@ -9,6 +9,9 @@ paginate     = 5
     tag      = "tags"
     series   = "series"
 
+[permalinks]
+  blog = "/blog/:slug/"
+
 [languages]
   [languages.en]
     title = "Hello Friend"
